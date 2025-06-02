@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f8f8f7;
+  overflow-x: hidden ;
 }
 
 * {

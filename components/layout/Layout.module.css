@@ -32,3 +32,13 @@
   background-color: #ffff;
   color: #3e47dd;
 }
+
+@media (max-width: 768px) {
+  .slogan,
+  .aboutUsBtn {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+}
