@@ -2,6 +2,8 @@
   min-height: 1000px;
 }
 
+/* HEADER */
+
 .header {
   display: flex;
   flex-direction: row;
@@ -40,5 +42,55 @@
   }
   .header {
     justify-content: center;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.socials p {
+  color: gray;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.helpfulTags {
+  display: flex;
+  gap: 1rem;
+}
+
+.carvago,
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.creator {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column-reverse;
+    align-items: start;
   }
 }
