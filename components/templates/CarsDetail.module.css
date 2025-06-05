@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 900px;
+}
+.container img {
+  width: 600px;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.header {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.details {
+  margin: 1.5rem 0;
+  padding: 0.7rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.details div {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.details div span {
+  margin-left: auto;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+.location span {
+  margin-left: auto;
+}
+
+.information {
+  margin: 1.5rem 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding: 1rem;
+}
+
+.information h3 {
+  margin-bottom: 1rem;
+}
+
+.price {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.price span {
+  margin-left: auto;
+}
+.buyBtn {
+  background-color: #3e47dd;
+  color: white;
+  border: 1px solid #3e47dd;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.6s ease;
+  margin: 1.5rem 0;
+  font-weight: 700;
+}
+
+.buyBtn:hover {
+  background-color: #ffff;
+  color: #3e47dd;
+}
+
+@media (max-width: 907px) {
+  .container {
+    margin: 0 15px;
+  }
+  .container img {
+    width: 100%;
+  }
+}
