@@ -23,9 +23,9 @@
 @media (max-width: 640px) {
   .container {
     flex-wrap: wrap;
-    margin: 0 1rem;
+    margin: 0 2rem;
   }
   .container div {
-    width: 320px;
+    width: 300px;
   }
 }
