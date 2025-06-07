@@ -4,7 +4,7 @@ function AllCars() {
   return (
     <div className={styles.container}>
       <Link href="/cars">
-        <button>See All Cars</button>
+        <button>See All</button>
       </Link>
     </div>
   );

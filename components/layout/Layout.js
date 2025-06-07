@@ -20,7 +20,7 @@ function Layout({ children }) {
           <p>Buy A Vehicle Without Risk</p>
         </div>
         <div className={styles.aboutUsBtn}>
-          <Link href="/about-us">About Us</Link>
+          <Link href="/aboutUs">About Us</Link>
         </div>
       </header>
 
