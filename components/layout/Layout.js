@@ -7,9 +7,15 @@ function Layout({ children }) {
     <>
       {/* HEADER */}
       <header className={styles.header}>
-        <div>
-          <Image src="/images/carvago-text.svg" width="100" height="70"></Image>
-        </div>
+        <Link href="/">
+          <div>
+            <Image
+              src="/images/carvago-text.svg"
+              width="100"
+              height="70"
+            ></Image>
+          </div>
+        </Link>
         <div className={styles.slogan}>
           <p>Buy A Vehicle Without Risk</p>
         </div>
