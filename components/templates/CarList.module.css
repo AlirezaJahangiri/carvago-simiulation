@@ -1,0 +1,45 @@
+.container {
+  margin-top: 2rem;
+}
+
+.backBtn {
+  margin-left: 2rem;
+}
+.backBtn span {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #0070f3;
+  border-radius: 8px;
+  background-color: white;
+  color: #0070f3;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 112, 243, 0.1);
+}
+.backBtn span:hover {
+  background-color: #0070f3;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
+  transform: translateY(-1px);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 400px) {
+  .backBtn {
+    margin-left: 1rem;
+  }
+
+  .backBtn span {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+  }
+}
