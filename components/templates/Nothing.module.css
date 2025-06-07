@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 1rem;
+}
+.backBtn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 10px 100px;
+  border: 2px solid #0070f3;
+  border-radius: 8px;
+  background-color: white;
+  color: #0070f3;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 112, 243, 0.1);
+}
+
+.backBtn:hover {
+  background-color: #0070f3;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.3);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 440px) {
+  .container p {
+    font-size: 0.8rem;
+  }
+}
