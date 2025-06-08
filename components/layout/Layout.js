@@ -19,9 +19,9 @@ function Layout({ children }) {
         <div className={styles.slogan}>
           <p>Buy A Vehicle Without Risk</p>
         </div>
-        <div className={styles.aboutUsBtn}>
-          <Link href="/aboutUs">About Us</Link>
-        </div>
+        <Link href="/aboutUs">
+          <div className={styles.aboutUsBtn}>About Us</div>
+        </Link>
       </header>
 
       <div className={styles.container}>{children}</div>
