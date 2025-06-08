@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  max-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card img {
+  width: 100%;
+}
+
+.card span {
+  font-weight: 700;
+  color: #0070f3;
+}
+
+.card p {
+  color: gray;
+}
+
+@media (max-width: 450px) {
+  .card {
+    max-width: 270px;
+  }
+}

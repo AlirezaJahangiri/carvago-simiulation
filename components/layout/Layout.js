@@ -40,7 +40,9 @@ function Layout({ children }) {
         </div>
         <div className={styles.helpfulTags}>
           <div className={styles.carvago}>
-            <h3>Carvago</h3>
+            <Link href="/aboutUs">
+              <h3>About Us</h3>
+            </Link>
             <p>Buy</p>
             <p>Reviews</p>
             <p>How does it work?</p>
@@ -56,7 +58,10 @@ function Layout({ children }) {
           </div>
         </div>
       </footer>
-      <div className={styles.creator}>Made with ❤️ by Alireza Jahangiri</div>
+      <div className={styles.creator}>
+        <p>Made with ❤️ by </p>{" "}
+        <Link href="https://t.me/AlirezaJhg"> Alireza Jahangiri </Link>{" "}
+      </div>
     </>
   );
 }

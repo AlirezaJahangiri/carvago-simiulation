@@ -33,9 +33,19 @@
   margin-top: 2rem;
 }
 
+.categoryName {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 400px) {
   .backBtn {
     margin-left: 1rem;
+  }
+
+  .categoryName h2 {
+    font-size: 1.3rem;
   }
 
   .backBtn span {

@@ -7,11 +7,15 @@ function CarList({ data }) {
   const backHandler = () => {
     router.back();
   };
-
+  const path = router.pathname;
+  const categoryName = path.replace("/categories/", "");
   return (
     <div className={styles.container}>
       <div className={styles.backBtn} onClick={backHandler}>
         <span>{`< Back`}</span>
+      </div>
+      <div className={styles.categoryName}>
+        <h2>{categoryName}</h2>
       </div>
       <div className={styles.cardContainer}>
         {data.map((car) => {

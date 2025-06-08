@@ -109,6 +109,16 @@
   justify-content: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  align-items: center;
+}
+.creator p {
+  margin-right: 0.3rem;
+  color: black;
+  font-weight: 300;
+}
+.creator {
+  color: #0070f3;
+  font-weight: 700;
 }
 
 @media (max-width: 640px) {
