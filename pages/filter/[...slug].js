@@ -1,3 +1,4 @@
+import ShowPrice from "@/components/module/ShowPrice";
 import CarList from "@/components/templates/CarList";
 import Nothing from "@/components/templates/Nothing";
 import carsData from "@/data/carsData";
@@ -15,6 +16,7 @@ function FilteredCars() {
 
   return (
     <div>
+      <ShowPrice />
       <CarList data={filteredCars} />
     </div>
   );

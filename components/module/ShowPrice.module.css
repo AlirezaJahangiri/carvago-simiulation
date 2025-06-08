@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container h2 {
+  color: #0070f3;
+}
+
+@media (max-width: 450px) {
+  .container h2 {
+    font-size: 1.2rem;
+  }
+}

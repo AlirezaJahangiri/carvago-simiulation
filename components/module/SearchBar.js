@@ -7,10 +7,22 @@ function SearchBar() {
   const [max, setMax] = useState("");
   const router = useRouter();
   const searchHandler = () => {
-    if (min && max) {
-      router.push(`/filter/${min}/${max}`);
+    // if (!min && max) {
+    //   toast.warning("Please Enter Min And Max");
+    // } else if (min < 9000 && max > 70000) {
+    //   toast.warning("please enter number between 9000 to 70000");
+    // } else {
+    //   router.push(`/filter/${min}/${max}`);
+    // }
+    // }
+    if (!min || !max) {
+      toast.warning("Please enter both Min and Max values");
+    } else if (min < 9000 || max > 70000) {
+      toast.warning("Please enter values between 9000$ and 70000$");
+    } else if (min >= max) {
+      toast.warning("Min value must be less than Max value");
     } else {
-      toast.warning("Please Enter Min And Max");
+      router.push(`/filter/${min}/${max}`);
     }
   };
   return (
